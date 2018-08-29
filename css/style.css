@@ -10,7 +10,7 @@ body{
 	text-align:center;	
 }
 
-body h3{
+body h2{
 	text-align:center;
 	font-size: 1.8vw;
 
@@ -106,8 +106,8 @@ nav{
 		text-align:left;
 		font-size: 3.8vw;
 	}
-	.header h3{
-		font-size:3.8vw;
+	.header h2{
+		font-size:3.7vw;
 	}
 }
 
