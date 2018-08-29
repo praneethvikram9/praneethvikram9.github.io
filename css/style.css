@@ -12,6 +12,8 @@ body{
 
 body h3{
 	text-align:center;
+	font-size: 1.8vw;
+
 }
 
 body a:hover{
@@ -103,6 +105,9 @@ nav{
 		float:center;
 		text-align:left;
 		font-size: 3.8vw;
+	}
+	.header h3{
+		font-size:3.8vw;
 	}
 }
 
