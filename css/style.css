@@ -1,0 +1,372 @@
+
+
+/*body css*/
+
+body{
+	width:100%;
+	background-color:#E3DCC2;
+	display: block;
+	font-family: 'Roboto', sans-serif;
+	text-align:center;	
+}
+
+body h3{
+	text-align:center;
+}
+
+body a:hover{
+	text-decoration:underline;
+}
+
+/*body css end*/
+
+
+/*header css start*/
+
+.header{
+	width:100%;
+	position:fixed;
+	top:0;
+	background:#0081AF;
+	height:120px;
+}
+
+nav{
+	background-color:#0081AF;
+	width:100%;
+	
+}
+.nav ul{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	flex-direction: row;
+	background-color:#0081AF;
+	flex:1;
+    }
+.nav li{
+	font-size:18px;
+	display: inline;
+	flex:1;
+}
+
+.nav ul li{
+	list-style: none;flex:1;
+}
+.nav{
+	overflow: hidden;
+	}
+
+.nav a{
+	text-align: center;
+	background-color:##0081AF;
+	font-size: 1.8vw;
+}
+
+
+.nav  a:hover{
+	background-color: white;
+	color:black;
+}
+
+
+@media screen and (max-width:600px){
+	.nav a:hover{
+
+		background-color: white;
+	    color:black;
+
+
+	}
+
+	.nav ul{
+		flex-wrap: wrap;
+	}
+	.nav ul li{
+
+		flex-basis: 100%;
+	}
+}
+
+@media screen and (max-width: 600px){
+	.nav ul {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.nav li{
+		flex:1 1 100%;
+		text-align: center;
+	}
+
+	.nav a{
+		float:center;
+		text-align:left;
+		font-size: 3.8vw;
+	}
+}
+
+
+/*header css end*/
+
+/*main css start*/
+.main{
+
+	margin-left:15px;
+	margin-right:15px;
+	margin-top: 122px;
+	background:#F1FFE7;
+}
+
+@media screen and (max-width: 600px){
+	.main{
+		margin-top: 189px;
+	}
+}
+
+
+
+
+/*main css end*/
+
+/*content css start*/
+.content a{
+	text-align: center;
+}
+
+
+.class p{
+	text-align: center;
+	
+}
+
+
+
+
+
+
+@media screen and (max-width: 600px){
+	ul{
+		list-style: none;
+		text-align: center;
+		flex:1;
+	}
+}
+
+
+
+.hero_image{
+	margin-left:0px;
+	margin-right:0px;
+
+
+}
+
+
+
+.hero_image img{
+	width:100%;
+}
+
+@media screen and (max-width: 600px){
+	img{
+		padding-top: 10px;
+		max-width: 100%;
+	}
+}
+
+
+.content{
+    width:100%;
+    margin-top: 12px;
+    margin-left:2px;
+    
+    
+	display:flex;
+	flex-wrap: wrap;
+	flex-direction:row;
+	justify-content: space-between;
+	color:#E4FDE1 ;
+}
+
+.content #c_1,#c_2,#c_3 {
+	flex:30%;
+	margin-right: 3px;
+	max-width: 33.33%;
+	overflow: hidden;
+	display: inline-block;
+	padding-bottom:2px;
+	font-size: 1.8vw;
+
+	
+}
+
+.content #c_3{
+
+	background-color: #1A1B41;
+
+}
+
+
+.content #c_2{
+
+	background-color: grey;
+	color:black;
+
+}
+.content a{
+	text-decoration: none;
+	text-align:center;
+}
+
+.content p{
+	text-align:center;
+	}
+
+.content a:hover{
+	text-decoration: underline;
+}
+
+.content img{
+	margin-top: 0px;
+	width:100%;
+	height:50%;
+}
+
+#c_1,#c_2,#c_3{
+
+	border:2px white;
+}
+
+
+
+
+@media screen and (max-width: 600px){
+	.content img{
+		margin-top: 0px;
+	}
+
+	.content p{
+		font-size:5vh;
+	}
+
+
+}
+
+@media screen and (max-width:600px){
+
+	#c_1,#c_2,#c_3{
+		flex:100%;
+		max-width: 100%
+	}
+}
+
+
+@media screen and (max-width: 600px){
+	#c_2,#c_3{
+		margin-bottom:3px;
+		font-size:120%;
+	}
+}
+
+
+
+
+/*content css end */
+
+/*
+
+.footer{
+	text-align: center;
+}
+
+
+footer{
+
+    text-align: center;
+    margin-top: 20px;
+	display:flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	background-color:white;
+	color:black;
+}
+
+footer #f_1{
+
+	flex:31%;
+	max-width:33.33%;
+}
+
+
+
+footer li{
+	list-style: none;
+	float:center;
+
+}
+
+footer li a{
+		text-align:center;
+}
+
+footer li a:hover {
+	text-decoration: underline;
+
+}
+
+#c_3 ul li {
+	display:inline;
+}
+
+
+@media screen and (max-width:600px){
+
+	#f_1{
+
+		flex:100%;
+		max-width: 100%
+	}
+
+	#f_1 ul{
+		display: inline;
+	}
+	#c_3{
+		display:block;
+	}
+}
+
+
+*/
+
+.footer{
+	text-align:center;
+	display:flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	color:white;
+	background-color: black;
+}
+
+
+.footer li{
+	display:inline;
+	list-style: none;
+}
+
+@media screen and (max-width:600px){
+	.footer {
+		flex-direction: row;
+	}
+	.footer #f_1,#f_2{
+		flex:100%;
+		max-width: 100%;
+
+	}
+	.footer li{
+		display: block;
+	}
+}
+
